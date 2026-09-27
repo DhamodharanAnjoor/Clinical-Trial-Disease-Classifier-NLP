@@ -46,9 +46,10 @@ The final model is selected based on the **highest Weighted F1-score**.
 
 | Model | Accuracy | Precision | Recall | Weighted F1 |
 |---|---:|---:|---:|---:|
-| Logistic Regression | YOUR SCORE | YOUR SCORE | YOUR SCORE | YOUR SCORE |
-| Random Forest | YOUR SCORE | YOUR SCORE | YOUR SCORE | YOUR SCORE |
-| Linear SVM | YOUR SCORE | YOUR SCORE | YOUR SCORE | YOUR SCORE |
+Linear SVM	0.9548	0.9553	0.9548	0.9548
+Logistic Regression	0.9453	0.9463	0.9453	0.9452
+Random Forest	0.9354	0.9371	0.9354	0.9351
+
 
 ### Best Model
 
@@ -116,6 +117,7 @@ Clinical-Trial-Disease-Classifier/
 ├── clinical_trial_disease_dataset.csv
 ├── requirements.txt
 ├── README.md
+├── step01_processed_data.csv
 │
 └── model_files/
     ├── best_model.pkl
