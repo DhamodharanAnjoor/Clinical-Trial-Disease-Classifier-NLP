@@ -44,14 +44,22 @@ The final model is selected based on the **highest Weighted F1-score**.
 
 ## 📈 Model Performance
 
-| Model | Accuracy | Precision | Recall | Weighted F1 |
+| **Model** | **Accuracy** | **Precision** | **Recall** | **Weighted F1** |
 |---|---:|---:|---:|---:|
-Linear SVM	0.9548	0.9553	0.9548	0.9548
-Logistic Regression	0.9453	0.9463	0.9453	0.9452
-Random Forest	0.9354	0.9371	0.9354	0.9351
+| **Linear SVM** | 0.9548 | 0.9553 | 0.9548 | **0.9548** |
+| Logistic Regression | 0.9453 | 0.9463 | 0.9453 | 0.9452 |
+| Random Forest | 0.9354 | 0.9371 | 0.9354 | 0.9351 |
 
+### 🏆 Best Model
 
-### Best Model
+**Linear SVM**
+
+- Accuracy: **95.48%**
+- Precision: **95.53%**
+- Recall: **95.48%**
+- Weighted F1: **95.48%**
+
+The **Linear SVM** achieved the highest Weighted F1-score among the three evaluated models and was selected as the Best Model.
 
 The model with the highest Weighted F1-score is saved as:
 
